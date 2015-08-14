@@ -1,0 +1,16 @@
+{
+  "name": "react-wrapper",
+  "version": "1.0.0",
+  "description": "TODO",
+  "author": "Miëtek Bak <hello@mietek.io>",
+  "homepage": "https://github.com/mietek/react-wrapper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mietek/react-wrapper"
+  },
+  "license": "MIT",
+  "main": "src/index.js",
+  "peerDependencies": {
+    "react": "^0.13.3"
+  }
+}
