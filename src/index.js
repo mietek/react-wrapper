@@ -21,9 +21,9 @@ var _ = module.exports = {
     if (!mod.exports.displayName) {
       mod.exports.displayName = displayName;
     }
-    if (!mod.exports.mixins) {
-      mod.exports.mixins = [React.addons.PureRenderMixin];
-    }
+    mod.exports.mixins = [].concat(
+      React.addons.PureRenderMixin,
+      mod.exports.mixins);
     var com = React.createClass(mod.exports);
     if (mod.makeHot) {
       com = mod.makeHot(com);
